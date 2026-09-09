@@ -1,13 +1,3 @@
 {
-  "$schema": "https://openapi.vercel.sh/vercel.json",
-  "git": {
-    "deploymentEnabled": {
-      "**": false,
-      "main": true,
-      "development": true
-    }
-  },
-  "github": {
-    "autoJobCancelation": true
-  }
+  "crons": [{ "path": "/api/cron/refresh", "schedule": "0 14 * * *" }]
 }

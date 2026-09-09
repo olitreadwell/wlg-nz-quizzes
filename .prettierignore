@@ -4,9 +4,10 @@ dist
 coverage
 playwright-report
 test-results
-package-lock.json
+pnpm-lock.yaml
 public
 *.md
 next-env.d.ts
 *.yml
 *.yaml
+src/generated

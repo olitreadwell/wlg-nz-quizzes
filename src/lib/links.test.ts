@@ -31,4 +31,10 @@ describe('findBrokenInternalLinks', () => {
     const broken = findBrokenInternalLinks(fixtureDir);
     expect(broken.some((entry) => entry.link.startsWith('http'))).toBe(false);
   });
+
+  it('skips root-relative app routes', () => {
+    writeFileSync(join(fixtureDir, 'route-link.md'), '[Contact](/contact)\n');
+    const broken = findBrokenInternalLinks(fixtureDir);
+    expect(broken.some((entry) => entry.link === '/contact')).toBe(false);
+  });
 });

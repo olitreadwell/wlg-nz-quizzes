@@ -19,7 +19,7 @@ git merge origin/integration/prisma
 ## Rules for integration branches
 
 - Each integration branch lives in the template repo and stays buildable on
-  its own: `npm run check` passes.
+  its own: `pnpm run check` passes.
 - Merging never edits core template files that the branch does not own; the
   branch adds files and wires them in.
 - Each branch documents its setup in `docs/integrations/<name>.md`.

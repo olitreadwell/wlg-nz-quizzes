@@ -3,6 +3,22 @@
 The concrete writing rules for code in this repo. These exist so an IDE
 hover, a grep, or an agent search answers a question without opening a file.
 
+## Components
+
+- Use Radix UI primitives for interaction components (label, accordion,
+  select, dialog, switch). They are wrapped in `src/components/ui/` with
+  Tailwind styling — add to that folder instead of hand-rolling.
+- Native inputs and textareas live in `src/components/ui/input.tsx` and
+  `textarea.tsx` so all forms share one style.
+- Keep pages thin: forms render state, submission logic stays in `src/lib`
+  and `src/server` so it is unit-testable without a browser.
+
+## Links
+
+- External links (http/https, protocol-relative) open in a new tab:
+  `target="_blank"` with `rel="noopener noreferrer"`. Enforced by
+  `pnpm run check:external-links` (part of `check` and CI).
+
 ## Every exported symbol gets a doc comment
 
 JSDoc/TSDoc above the definition, not inside it:
@@ -61,7 +77,7 @@ Split by concept, not by size: `validation.ts`, `errors.ts`, `logger.ts`,
 ## Docs point at real code
 
 Every "Where:" or "see" pointer in docs must be a path that exists. The link
-checker (`npm run check:links`) fails the build on a dead pointer.
+checker (`pnpm run check:links`) fails the build on a dead pointer.
 
 ## No invented abbreviations
 

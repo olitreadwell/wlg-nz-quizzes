@@ -2,21 +2,21 @@ import { Fraunces, Geist } from 'next/font/google';
 import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 import './globals.css';
+import { SiteNav } from '@/components/site-nav';
+import { SiteFooter } from '@/components/site-footer';
+import { getSiteConfig } from '@/lib/site-config';
 
 const geist = Geist({ variable: '--font-geist-sans', subsets: ['latin'] });
 const fraunces = Fraunces({ variable: '--font-fraunces', subsets: ['latin'] });
 
+const config = getSiteConfig();
+
 export const metadata: Metadata = {
-  title: 'WLG NZ Quizzes',
-  description:
-    'Every pub quiz around Wellington on one calendar: venues, times, details, and map links.',
-  openGraph: {
-    title: 'WLG NZ Quizzes',
-    description:
-      'Every pub quiz around Wellington on one calendar: venues, times, details, and map links.',
-    type: 'website',
-    url: 'https://olitreadwell.github.io/wlg-nz-quizzes/',
+  title: {
+    default: config.name,
+    template: `%s — ${config.name}`,
   },
+  description: `Every pub quiz around Wellington on one calendar: venues, times, details, and map links.`,
 };
 
 /**
@@ -29,14 +29,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: ReactNode }>): ReactNode {
   return (
     <html lang="en" className={`${geist.variable} ${fraunces.variable}`}>
-      <body>
-        <a
-          href="#main"
-          className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-stone-900 focus:px-3 focus:py-2 focus:text-white"
-        >
-          Skip to content
-        </a>
-        {children}
+      <body className="flex min-h-screen flex-col">
+        <SiteNav />
+        <div className="mx-auto w-full max-w-6xl flex-1 px-4 py-8">{children}</div>
+        <SiteFooter />
       </body>
     </html>
   );

@@ -1,25 +1,22 @@
 import Link from 'next/link';
 
 /**
- * Playful 404 page for the static export.
+ * Custom 404 page: explains the miss and points back to the homepage.
  *
- * @returns The not-found page content
+ * @returns The not-found page
  */
 export default function NotFound() {
   return (
-    <main className="mx-auto flex min-h-[60vh] max-w-2xl flex-col items-center justify-center px-4 text-center">
-      <p className="font-display text-6xl font-semibold text-amber-600">404</p>
-      <h1 className="mt-4 font-display text-2xl font-semibold tracking-tight text-balance">
-        This page is a trick question.
-      </h1>
-      <p className="mt-2 text-stone-600">
-        No quiz runs here. Head back to the calendar and pick a real one.
+    <main
+      id="main-content"
+      className="mx-auto flex min-h-[60vh] max-w-2xl flex-col items-center justify-center gap-4 px-6 text-center scroll-mt-20"
+    >
+      <h1 className="text-3xl font-semibold">Page not found</h1>
+      <p className="text-neutral-600 dark:text-neutral-400">
+        The page you are looking for does not exist or has moved.
       </p>
-      <Link
-        href="/"
-        className="mt-6 rounded-md bg-stone-900 px-4 py-2 font-medium text-white hover:bg-stone-700"
-      >
-        Back to the quizzes
+      <Link className="text-blue-600 underline dark:text-blue-400" href="/">
+        Back to the homepage
       </Link>
     </main>
   );

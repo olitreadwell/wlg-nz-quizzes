@@ -14,8 +14,8 @@ test-results
 .env.*.local
 /data
 *.tsbuildinfo
+logs/**
 .mypy_cache
 .pytest_cache
 .ruff_cache
 .venv
-.env*

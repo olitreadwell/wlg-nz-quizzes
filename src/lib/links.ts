@@ -43,7 +43,7 @@ export function listMarkdownFiles(rootDir: string): string[] {
 }
 
 function isInternalLink(target: string): boolean {
-  return !/^(https?:|mailto:|#|tel:)/.test(target) && !target.includes('://');
+  return !/^(https?:|mailto:|#|tel:|\/)/.test(target) && !target.includes('://');
 }
 
 function resolveTarget(rootDir: string, fileDir: string, target: string): string {

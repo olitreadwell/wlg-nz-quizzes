@@ -3,10 +3,11 @@ import { describe, expect, it } from 'vitest';
 import HomePage from '@/app/page';
 
 describe('homepage', () => {
-  it('renders the calendar heading and quiz count', () => {
-    render(<HomePage />);
+  it('renders the calendar heading and quiz count', async () => {
+    const page = await HomePage();
+    render(page);
     expect(screen.getByRole('heading', { name: 'WLG NZ Quizzes' })).toBeTruthy();
     expect(screen.getByText(/recurring pub quizzes/)).toBeTruthy();
-    expect(screen.getByRole('heading', { name: 'All quizzes by day' })).toBeTruthy();
+    expect(screen.getByRole('searchbox', { name: 'Search listings' })).toBeTruthy();
   });
 });

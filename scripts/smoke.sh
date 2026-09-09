@@ -1,22 +1,20 @@
 #!/usr/bin/env bash
-# Serves the static export from out/ and curls the key routes.
+# Boots the production server on a throwaway port and curls every route.
 set -euo pipefail
 
 PORT="${SMOKE_PORT:-3521}"
 BASE="http://localhost:$PORT"
 
-if [ ! -d out ]; then
-  echo "building..."
-  npm run build >/dev/null
-fi
+echo "building..."
+npm run build >/dev/null
 
-echo "serving out/ on port $PORT..."
-python3 -m http.server "$PORT" --bind 127.0.0.1 --directory out &
+echo "starting server on port $PORT..."
+HOSTNAME="0.0.0.0" PORT="$PORT" node .next/standalone/server.js &
 pid=$!
 trap 'kill "$pid" 2>/dev/null || true' EXIT
 
-for _ in $(seq 1 40); do
-  if curl -fsS "$BASE/" >/dev/null 2>&1; then
+for _ in $(seq 1 60); do
+  if curl -fsS "$BASE/health" >/dev/null 2>&1; then
     break
   fi
   sleep 0.25
@@ -31,7 +29,18 @@ check() {
   echo "ok: $label"
 }
 
-check "site root status" "200" "$(curl -s -o /dev/null -w '%{http_code}' "$BASE/")"
-check "page mentions quizzes" "WLG NZ Quizzes" "$(curl -s "$BASE/" | grep -o 'WLG NZ Quizzes' | head -1)"
+check "health status" "200" "$(curl -s -o /dev/null -w '%{http_code}' "$BASE/health")"
+check "hello status" "200" "$(curl -s -o /dev/null -w '%{http_code}' "$BASE/api/hello?name=Smoke")"
+check "items status" "200" "$(curl -s -o /dev/null -w '%{http_code}' "$BASE/api/v1/items")"
+check "dataset status" "200" "$(curl -s -o /dev/null -w '%{http_code}' "$BASE/api/v1/dataset")"
+check "feed status" "200" "$(curl -s -o /dev/null -w '%{http_code}' "$BASE/feed.xml")"
+check "calendar status" "200" "$(curl -s -o /dev/null -w '%{http_code}' "$BASE/calendar.ics")"
+check "items page" "200" "$(curl -s -o /dev/null -w '%{http_code}' "$BASE/items")"
+check "openapi status" "200" "$(curl -s -o /dev/null -w '%{http_code}' "$BASE/api/openapi.json")"
+check "docs status" "200" "$(curl -s -o /dev/null -w '%{http_code}' "$BASE/docs")"
+check "homepage status" "200" "$(curl -s -o /dev/null -w '%{http_code}' "$BASE/")"
+
+echo "running contract test against $BASE..."
+BASE_URL="$BASE" node scripts/contract-test.mjs
 
 echo "smoke: all green"

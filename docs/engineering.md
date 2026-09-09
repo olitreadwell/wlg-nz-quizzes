@@ -3,7 +3,7 @@
 The concrete rules that make this repo safe for humans and AI agents to
 edit in parallel:
 
-- **One command contract.** `npm run check` runs the full gate; CI mirrors
+- **One command contract.** `pnpm run check` runs the full gate; CI mirrors
   it. No local-only checks, no hidden steps.
 - **Names are addresses.** Exports get 2-3 word, domain-prefixed names so a
   grep or an agent search lands on exactly one thing.
@@ -13,6 +13,9 @@ edit in parallel:
   restate the code.
 - **Validation at the boundary.** Zod schemas in `src/server/` parse input
   once; downstream code assumes shape.
+- **API contract.** OpenAPI 3.1 generated from the same zod schemas, served
+  at `/api/openapi.json`, rendered by Swagger UI at `/docs`, and enforced by
+  a contract test (`src/server/openapi.test.ts`). See `docs/api.md`.
 - **Centralized errors.** `src/lib/errors.ts` maps failures to JSON
   responses; nothing crashes on bad input.
 - **Structured logs.** pino writes one JSON line per event to stdout.

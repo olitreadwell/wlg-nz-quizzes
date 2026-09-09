@@ -2,6 +2,7 @@ import { defineConfig, globalIgnores } from 'eslint/config';
 import nextVitals from 'eslint-config-next/core-web-vitals';
 import nextTs from 'eslint-config-next/typescript';
 import jsdoc from 'eslint-plugin-jsdoc';
+import jsxA11y from 'eslint-plugin-jsx-a11y';
 
 const eslintConfig = defineConfig([
   ...nextVitals,
@@ -31,17 +32,20 @@ const eslintConfig = defineConfig([
   },
 
   // Accessibility rules enforced explicitly so a broken interaction pattern
-  // cannot be merged unnoticed.
+  // cannot be merged unnoticed. Registered under `jsxA11y` (not `jsx-a11y`)
+  // so the plugin does not collide with the copy eslint-config-next bundles
+  // when the two configs merge for the same file.
   {
+    plugins: { jsxA11y },
     rules: {
-      'jsx-a11y/interactive-supports-focus': 'error',
-      'jsx-a11y/click-events-have-key-events': 'error',
-      'jsx-a11y/label-has-associated-control': [
+      'jsxA11y/interactive-supports-focus': 'error',
+      'jsxA11y/click-events-have-key-events': 'error',
+      'jsxA11y/label-has-associated-control': [
         'error',
         { controlComponents: ['Input'], assert: 'either', depth: 3 },
       ],
-      'jsx-a11y/alt-text': 'error',
-      'jsx-a11y/tabindex-no-positive': 'warn',
+      'jsxA11y/alt-text': 'error',
+      'jsxA11y/tabindex-no-positive': 'warn',
       '@typescript-eslint/no-explicit-any': 'error',
     },
   },

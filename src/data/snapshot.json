@@ -1,0 +1,1595 @@
+{
+  "version": "seed",
+  "exportedAt": "2026-09-09T03:49:36.121Z",
+  "license": "Public data only. Opt-out respected — see /opt-out.",
+  "items": [
+    {
+      "id": "1841-bar-restaurant",
+      "name": "1841 Bar Restaurant",
+      "slug": "1841-bar-restaurant",
+      "city": "Wellington City",
+      "region": "Wellington region",
+      "location": "Johnsonville",
+      "address": "1 Disraeli Street, Johnsonville, Wellington 6037",
+      "categories": ["quiz"],
+      "source": {
+        "label": "Believe it or Not — Find a Quiz",
+        "url": "https://believeitornot.co.nz/findaquiz.html"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Wednesday",
+          "startTime": "19:30",
+          "cadence": "weekly",
+          "booking": "Walk in or book a table",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "1852-pub-and-kitchen",
+      "name": "1852 Pub and Kitchen",
+      "slug": "1852-pub-and-kitchen",
+      "city": "Wellington City",
+      "region": "Wellington region",
+      "location": "Brooklyn",
+      "address": "55 Cleveland Street, Brooklyn, Wellington 6021",
+      "categories": ["quiz"],
+      "source": {
+        "label": "Believe it or Not — Find a Quiz",
+        "url": "https://believeitornot.co.nz/findaquiz.html"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Tuesday",
+          "startTime": "19:00",
+          "cadence": "weekly",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "backbencher-gastropub",
+      "name": "Backbencher Gastropub",
+      "slug": "backbencher-gastropub",
+      "city": "Wellington City",
+      "region": "Wellington region",
+      "location": "Thorndon",
+      "address": "34 Molesworth Street, Thorndon, Wellington 6011",
+      "categories": ["quiz", "political"],
+      "description": "Political trivia favourites. MPs have been known to drop in.",
+      "source": {
+        "label": "Believe it or Not — Find a Quiz",
+        "url": "https://believeitornot.co.nz/findaquiz.html"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Monday",
+          "startTime": "18:30",
+          "cadence": "weekly",
+          "tags": ["political"]
+        }
+      ]
+    },
+    {
+      "id": "bellevue-gardens-hotel",
+      "name": "Bellevue Gardens Hotel",
+      "slug": "bellevue-gardens-hotel",
+      "city": "Lower Hutt",
+      "region": "Wellington region",
+      "location": "Woburn",
+      "address": "140 Woburn Road, Woburn, Lower Hutt 5010",
+      "categories": ["quiz"],
+      "source": {
+        "label": "Believe it or Not — Find a Quiz",
+        "url": "https://believeitornot.co.nz/findaquiz.html"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Thursday",
+          "startTime": "19:00",
+          "cadence": "weekly",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "bethel-woods",
+      "name": "Bethel Woods",
+      "slug": "bethel-woods",
+      "city": "Wellington City",
+      "region": "Wellington region",
+      "location": "Wellington Central",
+      "address": "73 The Terrace, Wellington Central, Wellington 6011",
+      "categories": ["quiz"],
+      "description": "Listed by Believe it or Not; confirm the venue is still running it before planning around this one.",
+      "source": {
+        "label": "Believe it or Not — Find a Quiz",
+        "url": "https://believeitornot.co.nz/findaquiz.html"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Tuesday",
+          "startTime": "18:30",
+          "cadence": "weekly",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "borough-tawa",
+      "name": "Borough",
+      "slug": "borough-tawa",
+      "city": "Wellington City",
+      "region": "Wellington region",
+      "location": "Tawa",
+      "address": "162 Main Road, Tawa, Wellington 5028",
+      "categories": ["quiz"],
+      "source": {
+        "label": "Believe it or Not — Find a Quiz",
+        "url": "https://believeitornot.co.nz/findaquiz.html"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Wednesday",
+          "startTime": "19:00",
+          "cadence": "weekly",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "churlys-cbd",
+      "name": "Churly's CBD",
+      "slug": "churlys-cbd",
+      "city": "Wellington City",
+      "region": "Wellington region",
+      "location": "Wellington Central",
+      "address": "1 Willis Street, Wellington Central, Wellington 6011",
+      "categories": ["quiz"],
+      "source": {
+        "label": "Believe it or Not — Find a Quiz",
+        "url": "https://believeitornot.co.nz/findaquiz.html"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Wednesday",
+          "startTime": "18:00",
+          "cadence": "weekly",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "co-op-kitchen-bar",
+      "name": "Co-Op Kitchen & Bar",
+      "slug": "co-op-kitchen-bar",
+      "city": "Porirua",
+      "region": "Wellington region",
+      "location": "Whitby",
+      "address": "69 Discovery Drive, Whitby, Porirua 5024",
+      "categories": ["quiz"],
+      "source": {
+        "label": "Believe it or Not — Find a Quiz",
+        "url": "https://believeitornot.co.nz/findaquiz.html"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Monday",
+          "startTime": "19:30",
+          "cadence": "weekly",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "cosmopolitan-club-upper-hutt",
+      "name": "Cosmopolitan Club",
+      "slug": "cosmopolitan-club-upper-hutt",
+      "city": "Upper Hutt",
+      "region": "Wellington region",
+      "location": "Ebdentown",
+      "address": "11 Logan Street, Ebdentown, Upper Hutt 5018",
+      "categories": ["quiz"],
+      "description": "Members clubs often ask you to sign in; phone ahead.",
+      "source": {
+        "label": "Believe it or Not — Find a Quiz",
+        "url": "https://believeitornot.co.nz/findaquiz.html"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Tuesday",
+          "startTime": "19:00",
+          "cadence": "weekly",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "dakota",
+      "name": "Dakota",
+      "slug": "dakota",
+      "city": "Wellington City",
+      "region": "Wellington region",
+      "location": "Te Aro",
+      "address": "74 Courtenay Place, Te Aro, Wellington 6011",
+      "categories": ["quiz"],
+      "source": {
+        "label": "Believe it or Not — Find a Quiz",
+        "url": "https://believeitornot.co.nz/findaquiz.html"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Tuesday",
+          "startTime": "19:00",
+          "cadence": "weekly",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "dillingers-brasserie-bar",
+      "name": "Dillingers Brasserie & Bar",
+      "slug": "dillingers-brasserie-bar",
+      "city": "Wellington City",
+      "region": "Wellington region",
+      "location": "Lambton Quay",
+      "address": "155 Lambton Quay, Wellington Central, Wellington 6011",
+      "categories": ["quiz", "early start"],
+      "description": "Early start, good for an after-work team.",
+      "source": {
+        "label": "Believe it or Not — Find a Quiz",
+        "url": "https://believeitornot.co.nz/findaquiz.html"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Tuesday",
+          "startTime": "17:30",
+          "cadence": "weekly",
+          "tags": ["early start"]
+        }
+      ]
+    },
+    {
+      "id": "empire-est-1950",
+      "name": "Empire Est 1950",
+      "slug": "empire-est-1950",
+      "city": "Lower Hutt",
+      "region": "Wellington region",
+      "location": "Petone",
+      "address": "175 Jackson Street, Petone, Lower Hutt 5012",
+      "categories": ["quiz"],
+      "source": {
+        "label": "Believe it or Not — Find a Quiz",
+        "url": "https://believeitornot.co.nz/findaquiz.html"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Wednesday",
+          "startTime": "19:00",
+          "cadence": "weekly",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "the-featherston",
+      "name": "The Featherston",
+      "slug": "the-featherston",
+      "city": "Wellington City",
+      "region": "Wellington region",
+      "location": "Wellington Central",
+      "address": "Featherston Street, Wellington Central, Wellington 6011",
+      "categories": ["quiz"],
+      "source": {
+        "label": "Believe it or Not — Find a Quiz",
+        "url": "https://believeitornot.co.nz/findaquiz.html"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Tuesday",
+          "startTime": "18:30",
+          "cadence": "weekly",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "gibbons-hotel",
+      "name": "Gibbons Hotel",
+      "slug": "gibbons-hotel",
+      "city": "Wellington City",
+      "region": "Wellington region",
+      "location": "Te Aro",
+      "address": "52 Taranaki Street, Te Aro, Wellington 6011",
+      "categories": ["quiz", "book ahead"],
+      "source": {
+        "label": "Gibbons Hotel",
+        "url": "https://gibbonshotel.co.nz/events/quiz-night/"
+      },
+      "lastVerified": "2026-08-25",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Tuesday",
+          "startTime": "18:30",
+          "cadence": "weekly",
+          "format": "Brain-busting questions and cheeky challenges",
+          "booking": "Book a table",
+          "tags": ["book ahead"]
+        }
+      ]
+    },
+    {
+      "id": "green-man-pub",
+      "name": "Green Man Pub",
+      "slug": "green-man-pub",
+      "city": "Wellington City",
+      "region": "Wellington region",
+      "location": "Wellington Central",
+      "address": "25 Victoria Street, Wellington Central, Wellington 6011",
+      "categories": ["quiz"],
+      "source": {
+        "label": "Believe it or Not — Find a Quiz",
+        "url": "https://believeitornot.co.nz/findaquiz.html"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Tuesday",
+          "startTime": "18:00",
+          "cadence": "weekly",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "hotel-bristol",
+      "name": "Hotel Bristol",
+      "slug": "hotel-bristol",
+      "city": "Wellington City",
+      "region": "Wellington region",
+      "location": "Te Aro",
+      "address": "131-133 Cuba Street, Te Aro, Wellington 6011",
+      "categories": ["quiz", "big prizes", "book ahead"],
+      "description": "Long-running Thursday institution on Cuba Street. Cryptic clues on Facebook before the night.",
+      "source": {
+        "label": "Star Group — Hotel Bristol quiz",
+        "url": "https://stargroup.nz/events/hb-weekly-quiz"
+      },
+      "lastVerified": "2026-08-25",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Thursday",
+          "startTime": "19:00",
+          "cadence": "weekly",
+          "prizes": "$100 Star Points 1st, $75 2nd, $25 3rd",
+          "booking": "Bookings recommended",
+          "operator": "Believe it or Not (Star Group)",
+          "tags": ["big prizes", "book ahead"]
+        }
+      ]
+    },
+    {
+      "id": "huxleys",
+      "name": "Huxley's",
+      "slug": "huxleys",
+      "city": "Wellington City",
+      "region": "Wellington region",
+      "location": "Pipitea",
+      "address": "34 Bowen Street, Pipitea, Wellington 6011",
+      "categories": ["quiz"],
+      "source": {
+        "label": "Believe it or Not — Find a Quiz",
+        "url": "https://believeitornot.co.nz/findaquiz.html"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Thursday",
+          "startTime": "18:00",
+          "cadence": "weekly",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "khandallah-trading-company",
+      "name": "Khandallah Trading Company",
+      "slug": "khandallah-trading-company",
+      "city": "Wellington City",
+      "region": "Wellington region",
+      "location": "Khandallah",
+      "address": "Agra Crescent and Ganges Road, Khandallah, Wellington 6035",
+      "categories": ["quiz"],
+      "source": {
+        "label": "Believe it or Not — Find a Quiz",
+        "url": "https://believeitornot.co.nz/findaquiz.html"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Tuesday",
+          "startTime": "19:00",
+          "cadence": "weekly",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "naenae-hotel",
+      "name": "Naenae Hotel",
+      "slug": "naenae-hotel",
+      "city": "Lower Hutt",
+      "region": "Wellington region",
+      "location": "Naenae",
+      "address": "1 Everest Avenue, Naenae, Lower Hutt 5011",
+      "categories": ["quiz"],
+      "source": {
+        "label": "Believe it or Not — Find a Quiz",
+        "url": "https://believeitornot.co.nz/findaquiz.html"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Wednesday",
+          "startTime": "19:00",
+          "cadence": "weekly",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "omalleys-bar-kitchen",
+      "name": "O'Malleys Bar and Kitchen",
+      "slug": "omalleys-bar-kitchen",
+      "city": "Lower Hutt",
+      "region": "Wellington region",
+      "location": "Eastbourne",
+      "address": "612 Marine Drive, Eastbourne, Lower Hutt 5013",
+      "categories": ["quiz", "monthly"],
+      "source": {
+        "label": "Believe it or Not — Find a Quiz",
+        "url": "https://believeitornot.co.nz/findaquiz.html"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Tuesday",
+          "startTime": "19:00",
+          "cadence": "monthly",
+          "cadenceNote": "Last Tuesday of the month",
+          "tags": ["monthly"]
+        }
+      ]
+    },
+    {
+      "id": "pickle-jar",
+      "name": "Pickle Jar",
+      "slug": "pickle-jar",
+      "city": "Wellington City",
+      "region": "Wellington region",
+      "location": "Karori",
+      "address": "5 Parkvale Road, Karori, Wellington 6012",
+      "categories": ["quiz"],
+      "source": {
+        "label": "Believe it or Not — Find a Quiz",
+        "url": "https://believeitornot.co.nz/findaquiz.html"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Tuesday",
+          "startTime": "19:00",
+          "cadence": "weekly",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "plimmerton-boating-club",
+      "name": "Plimmerton Boating Club",
+      "slug": "plimmerton-boating-club",
+      "city": "Porirua",
+      "region": "Wellington region",
+      "location": "Plimmerton",
+      "address": "66 Moana Road, Plimmerton, Karehana Bay 5026",
+      "categories": ["quiz", "monthly"],
+      "source": {
+        "label": "Believe it or Not — Find a Quiz",
+        "url": "https://believeitornot.co.nz/findaquiz.html"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Thursday",
+          "startTime": "19:00",
+          "cadence": "monthly",
+          "cadenceNote": "Fourth Thursday of the month",
+          "tags": ["monthly"]
+        }
+      ]
+    },
+    {
+      "id": "porirua-club",
+      "name": "Porirua Club",
+      "slug": "porirua-club",
+      "city": "Porirua",
+      "region": "Wellington region",
+      "location": "Porirua City Centre",
+      "address": "1 Lodge Place, Porirua City Centre, Porirua 5022",
+      "categories": ["quiz", "seasonal"],
+      "source": {
+        "label": "Believe it or Not — Find a Quiz",
+        "url": "https://believeitornot.co.nz/findaquiz.html"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Wednesday",
+          "startTime": "19:30",
+          "cadence": "seasonal",
+          "cadenceNote": "Fortnightly, seasonal; confirm the season is on",
+          "tags": ["seasonal"]
+        }
+      ]
+    },
+    {
+      "id": "residence",
+      "name": "Residence",
+      "slug": "residence",
+      "city": "Wellington City",
+      "region": "Wellington region",
+      "location": "Te Aro",
+      "address": "122 Courtenay Place, Te Aro, Wellington 6011",
+      "categories": ["quiz", "big prizes", "book ahead"],
+      "source": {
+        "label": "Star Group — Southern Cross quiz",
+        "url": "https://stargroup.nz/events/sc-weekly-quiz"
+      },
+      "lastVerified": "2026-08-25",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Wednesday",
+          "startTime": "19:00",
+          "cadence": "weekly",
+          "prizes": "$100 Star Points 1st, $75 2nd, $25 3rd",
+          "booking": "Bookings recommended",
+          "operator": "Believe it or Not (Star Group)",
+          "tags": ["big prizes", "book ahead"]
+        }
+      ]
+    },
+    {
+      "id": "shed-22",
+      "name": "Shed 22",
+      "slug": "shed-22",
+      "city": "Wellington City",
+      "region": "Wellington region",
+      "location": "Te Aro",
+      "address": "4 Taranaki Street, Wellington Central, Wellington 6011",
+      "categories": ["quiz"],
+      "source": {
+        "label": "Believe it or Not — Find a Quiz",
+        "url": "https://believeitornot.co.nz/findaquiz.html"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Wednesday",
+          "startTime": "18:00",
+          "cadence": "weekly",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "shepherds-arms-hotel",
+      "name": "Shepherds Arms Hotel",
+      "slug": "shepherds-arms-hotel",
+      "city": "Wellington City",
+      "region": "Wellington region",
+      "location": "Thorndon",
+      "address": "285 Tinakori Road, Thorndon, Wellington 6011",
+      "categories": ["quiz"],
+      "source": {
+        "label": "Believe it or Not — Find a Quiz",
+        "url": "https://believeitornot.co.nz/findaquiz.html"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Tuesday",
+          "startTime": "19:00",
+          "cadence": "weekly",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "speights-ale-house-petone",
+      "name": "Speight's Ale House",
+      "slug": "speights-ale-house-petone",
+      "city": "Lower Hutt",
+      "region": "Wellington region",
+      "location": "Petone",
+      "address": "75-81 Jackson Street, Petone, Lower Hutt 5012",
+      "categories": ["quiz"],
+      "source": {
+        "label": "Believe it or Not — Find a Quiz",
+        "url": "https://believeitornot.co.nz/findaquiz.html"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Tuesday",
+          "startTime": "19:00",
+          "cadence": "weekly",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "southern-cross",
+      "name": "Southern Cross",
+      "slug": "southern-cross",
+      "city": "Wellington City",
+      "region": "Wellington region",
+      "location": "Te Aro",
+      "address": "39 Abel Smith Street, Te Aro, Wellington 6011",
+      "categories": ["quiz"],
+      "source": {
+        "label": "Believe it or Not — Find a Quiz",
+        "url": "https://believeitornot.co.nz/findaquiz.html"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Tuesday",
+          "startTime": "19:00",
+          "cadence": "weekly",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "st-johns-bar-eatery",
+      "name": "St. John's Bar & Eatery",
+      "slug": "st-johns-bar-eatery",
+      "city": "Wellington City",
+      "region": "Wellington region",
+      "location": "Te Aro",
+      "address": "5 Cable Street, Te Aro, Wellington 6011",
+      "categories": ["quiz", "waterfront"],
+      "description": "On the waterfront, close to Te Papa.",
+      "source": {
+        "label": "Believe it or Not — Find a Quiz",
+        "url": "https://believeitornot.co.nz/findaquiz.html"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Thursday",
+          "startTime": "18:00",
+          "cadence": "weekly",
+          "tags": ["waterfront"]
+        }
+      ]
+    },
+    {
+      "id": "strathmore-local",
+      "name": "Strathmore Local",
+      "slug": "strathmore-local",
+      "city": "Wellington City",
+      "region": "Wellington region",
+      "location": "Strathmore",
+      "address": "3/5 Strathmore Avenue, Strathmore Park, Wellington 6022",
+      "categories": ["quiz"],
+      "source": {
+        "label": "Believe it or Not — Find a Quiz",
+        "url": "https://believeitornot.co.nz/findaquiz.html"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Tuesday",
+          "startTime": "19:00",
+          "cadence": "weekly",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "supply-room",
+      "name": "Supply Room",
+      "slug": "supply-room",
+      "city": "Porirua",
+      "region": "Wellington region",
+      "location": "Mana",
+      "address": "105 Mana Esplanade, Paremata, Porirua 5026",
+      "categories": ["quiz", "fortnightly"],
+      "source": {
+        "label": "Believe it or Not — Find a Quiz",
+        "url": "https://believeitornot.co.nz/findaquiz.html"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Tuesday",
+          "startTime": "19:00",
+          "cadence": "fortnightly",
+          "tags": ["fortnightly"]
+        }
+      ]
+    },
+    {
+      "id": "tote-furnace",
+      "name": "Tote & Furnace",
+      "slug": "tote-furnace",
+      "city": "Upper Hutt",
+      "region": "Wellington region",
+      "location": "Trentham",
+      "address": "74 Ararino Street, Trentham, Upper Hutt 5018",
+      "categories": ["quiz"],
+      "source": {
+        "label": "Believe it or Not — Find a Quiz",
+        "url": "https://believeitornot.co.nz/findaquiz.html"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Tuesday",
+          "startTime": "19:00",
+          "cadence": "weekly",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "tuatara-taproom",
+      "name": "Tuatara Taproom",
+      "slug": "tuatara-taproom",
+      "city": "Upper Hutt",
+      "region": "Wellington region",
+      "location": "Maidstone",
+      "address": "23 Blenheim Street, Maidstone, Upper Hutt 5018",
+      "categories": ["quiz"],
+      "source": {
+        "label": "Believe it or Not — Find a Quiz",
+        "url": "https://believeitornot.co.nz/findaquiz.html"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Wednesday",
+          "startTime": "18:00",
+          "cadence": "weekly",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "wq-hotel",
+      "name": "WQ Hotel",
+      "slug": "wq-hotel",
+      "city": "Wellington City",
+      "region": "Wellington region",
+      "location": "Thorndon",
+      "address": "24 Hawkestone Street, Thorndon, Wellington 6011",
+      "categories": ["quiz"],
+      "source": {
+        "label": "Believe it or Not — Find a Quiz",
+        "url": "https://believeitornot.co.nz/findaquiz.html"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Wednesday",
+          "startTime": "18:30",
+          "cadence": "weekly",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "moon-bar-newtown",
+      "name": "Moon",
+      "slug": "moon-bar-newtown",
+      "city": "Wellington City",
+      "region": "Wellington region",
+      "location": "Newtown",
+      "address": "101 Riddiford Street, Newtown, Wellington 6021",
+      "categories": ["quiz"],
+      "description": "Reported by r/Wellington quizzers. Confirm with the venue before planning around it.",
+      "source": {
+        "label": "r/Wellington quiz thread",
+        "url": "https://www.reddit.com/r/Wellington/comments/830uvg/pub_quizzes/"
+      },
+      "lastVerified": "2026-08-25",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Monday",
+          "startTime": "19:00",
+          "cadence": "weekly",
+          "format": "Grown up pub quiz",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "eva-beva",
+      "name": "Eva Beva",
+      "slug": "eva-beva",
+      "city": "Wellington City",
+      "region": "Wellington region",
+      "location": "Te Aro",
+      "address": "31-35 Dixon Street, Te Aro, Wellington 6011",
+      "categories": ["quiz", "biggest", "book ahead"],
+      "description": "The venue bills it as \"Wellington's biggest quiz night\"; Gee Quiz reports 25-30 teams on Wednesdays. Confirm start time.",
+      "source": {
+        "label": "Gee Quiz — Pub Quiz",
+        "url": "https://www.geequiz.co.nz/pub-quiz"
+      },
+      "lastVerified": "2026-08-25",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Wednesday",
+          "startTime": "19:00",
+          "cadence": "weekly",
+          "format": "5 rounds, 50 questions, plus bonus rounds",
+          "booking": "Book a table at evapub.nz",
+          "operator": "Gee Quiz",
+          "tags": ["biggest", "book ahead"]
+        }
+      ]
+    },
+    {
+      "id": "boundary-tap-kitchen",
+      "name": "Boundary Tap & Kitchen",
+      "slug": "boundary-tap-kitchen",
+      "city": "Kapiti Coast",
+      "region": "Wellington region",
+      "location": "Raumati Beach",
+      "address": "3 Raumati Road, Raumati Beach, Paraparaumu 5032",
+      "categories": ["quiz"],
+      "source": {
+        "label": "Believe it or Not — Find a Quiz",
+        "url": "https://believeitornot.co.nz/findaquiz.html"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Tuesday",
+          "startTime": "19:15",
+          "cadence": "weekly",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "club-vista",
+      "name": "Club Vista",
+      "slug": "club-vista",
+      "city": "Kapiti Coast",
+      "region": "Wellington region",
+      "location": "Paraparaumu Beach",
+      "address": "32 Marine Parade, Paraparaumu Beach, Paraparaumu 5032",
+      "categories": ["quiz"],
+      "source": {
+        "label": "Believe it or Not — Find a Quiz",
+        "url": "https://believeitornot.co.nz/findaquiz.html"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Tuesday",
+          "startTime": "19:15",
+          "cadence": "weekly",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "jolly-pub",
+      "name": "Jolly Pub",
+      "slug": "jolly-pub",
+      "city": "Kapiti Coast",
+      "region": "Wellington region",
+      "location": "Paraparaumu Beach",
+      "address": "93 Mazengarb Road, Paraparaumu Beach, Paraparaumu 5032",
+      "categories": ["quiz"],
+      "source": {
+        "label": "Believe it or Not — Find a Quiz",
+        "url": "https://believeitornot.co.nz/findaquiz.html"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Thursday",
+          "startTime": "19:00",
+          "cadence": "weekly",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "waikanae-chartered-club",
+      "name": "Waikanae Chartered Club",
+      "slug": "waikanae-chartered-club",
+      "city": "Kapiti Coast",
+      "region": "Wellington region",
+      "location": "Waikanae",
+      "address": "8 Elizabeth Street, Waikanae 5036",
+      "categories": ["quiz"],
+      "description": "Chartered clubs often ask visitors to sign in; phone ahead.",
+      "source": {
+        "label": "Believe it or Not — Find a Quiz",
+        "url": "https://believeitornot.co.nz/findaquiz.html"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Thursday",
+          "startTime": "19:00",
+          "cadence": "weekly",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "grill-at-solway-park",
+      "name": "The Grill at Solway Park",
+      "slug": "grill-at-solway-park",
+      "city": "Wairarapa",
+      "region": "Wellington region",
+      "location": "Masterton",
+      "address": "High Street, Solway, Masterton 5810",
+      "categories": ["quiz"],
+      "source": {
+        "label": "Believe it or Not — Find a Quiz",
+        "url": "https://believeitornot.co.nz/findaquiz.html"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Wednesday",
+          "startTime": "18:00",
+          "cadence": "weekly",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "kelburn-village-pub",
+      "name": "Kelburn Village Pub",
+      "slug": "kelburn-village-pub",
+      "city": "Wellington City",
+      "region": "Wellington region",
+      "location": "Kelburn",
+      "address": "87 Upland Road, Kelburn, Wellington 6012",
+      "categories": ["quiz"],
+      "source": {
+        "label": "Eventfinda — Quiz Night at Kelburn Village Pub",
+        "url": "https://www.eventfinda.co.nz/2025/quiz-night7/wellington"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Tuesday",
+          "startTime": "19:00",
+          "cadence": "weekly",
+          "cost": "Free admission",
+          "format": "7:00pm - 9:00pm",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "abandoned-taproom",
+      "name": "Abandoned Taproom",
+      "slug": "abandoned-taproom",
+      "city": "Porirua",
+      "region": "Wellington region",
+      "location": "Porirua City Centre",
+      "address": "20 Parumoana Street, Porirua City Centre, Porirua 5022",
+      "categories": ["quiz"],
+      "source": {
+        "label": "Eventfinda — Quiz Night at Abandoned Taproom",
+        "url": "https://www.eventfinda.co.nz/2026/quiz-night2/porirua-mana"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Thursday",
+          "startTime": "18:30",
+          "cadence": "weekly",
+          "cost": "Free admission",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "amador",
+      "name": "Amador",
+      "slug": "amador",
+      "city": "Wellington City",
+      "region": "Wellington region",
+      "location": "Wellington Central",
+      "address": "80 Willis Street, Wellington Central, Wellington 6011",
+      "categories": ["quiz"],
+      "source": {
+        "label": "Eventfinda — Quiz Night at Amador",
+        "url": "https://www.eventfinda.co.nz/2025/quiz-night22/wellington"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Tuesday",
+          "startTime": "18:30",
+          "cadence": "weekly",
+          "cost": "Free admission",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "three-sisters-brewery",
+      "name": "Three Sisters Brewery",
+      "slug": "three-sisters-brewery",
+      "city": "Wellington City",
+      "region": "Wellington region",
+      "location": "Te Aro",
+      "address": "19 Blair Street, Te Aro, Wellington 6011",
+      "categories": ["quiz"],
+      "source": {
+        "label": "Eventfinda — Quiz Night at Three Sisters Brewery",
+        "url": "https://www.eventfinda.co.nz/2026/quiz-night/wellington-region"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Tuesday",
+          "startTime": "18:30",
+          "cadence": "weekly",
+          "cost": "Free admission",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "eastbourne-sports-services-club",
+      "name": "Eastbourne Sports & Services Club",
+      "slug": "eastbourne-sports-services-club",
+      "city": "Lower Hutt",
+      "region": "Wellington region",
+      "location": "Eastbourne",
+      "address": "South End, Tuatoru Street, Eastbourne, Lower Hutt 5013",
+      "categories": ["quiz"],
+      "description": "Community club quiz night; phone ahead for visitor rules.",
+      "source": {
+        "label": "Eventfinda — Quiz Night at Eastbourne Sports & Services Club",
+        "url": "https://www.eventfinda.co.nz/2026/quiz-night2/lower-hutt"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Wednesday",
+          "startTime": "19:00",
+          "cadence": "weekly",
+          "cost": "Free admission",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "realm-bar-bistro",
+      "name": "The Realm Bar & Bistro",
+      "slug": "realm-bar-bistro",
+      "city": "Wellington City",
+      "region": "Wellington region",
+      "location": "Hataitai",
+      "address": "7 Moxham Avenue, Hataitai, Wellington 6021",
+      "categories": ["quiz"],
+      "source": {
+        "label": "Eventfinda — Quiz Night at The Realm",
+        "url": "https://www.eventfinda.co.nz/2026/quiz-night5/wellington"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Thursday",
+          "startTime": "19:00",
+          "cadence": "weekly",
+          "cost": "Free admission",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "parrotdog-bar",
+      "name": "Parrotdog Bar",
+      "slug": "parrotdog-bar",
+      "city": "Wellington City",
+      "region": "Wellington region",
+      "location": "Lyall Bay",
+      "address": "60-66 Kingsford Smith Street, Lyall Bay, Wellington 6022",
+      "categories": ["quiz"],
+      "source": {
+        "label": "Eventfinda — Parrotdog Quiz Night",
+        "url": "https://www.eventfinda.co.nz/2026/parrotdog-quiz-night/wellington"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Thursday",
+          "startTime": "18:30",
+          "cadence": "weekly",
+          "cost": "Free admission",
+          "booking": "First in, first seated. Book ahead",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "fermented-bar-eatery",
+      "name": "Fermented Bar & Eatery",
+      "slug": "fermented-bar-eatery",
+      "city": "Upper Hutt",
+      "region": "Wellington region",
+      "location": "Maidstone",
+      "address": "27A Blenheim Street, Maidstone, Upper Hutt 5018",
+      "categories": ["quiz"],
+      "source": {
+        "label": "Eventfinda — Quiz Night at Fermented",
+        "url": "https://www.eventfinda.co.nz/2026/quiz-night2/upper-hutt"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Thursday",
+          "startTime": "18:30",
+          "cadence": "weekly",
+          "cost": "Free admission",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "mamas-sizzler",
+      "name": "Mama's Sizzler Restaurant and Bar",
+      "slug": "mamas-sizzler",
+      "city": "Wellington City",
+      "region": "Wellington region",
+      "location": "Johnsonville",
+      "address": "3/33 Johnsonville Road, Johnsonville, Wellington 6037",
+      "categories": ["quiz"],
+      "description": "Filed under the Porirua-Mana region on Eventfinda, address is in Johnsonville.",
+      "source": {
+        "label": "Eventfinda — Quiz Night at Mama's Sizzler",
+        "url": "https://www.eventfinda.co.nz/2026/quiz-night4/wellington-region"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Thursday",
+          "startTime": "18:30",
+          "cadence": "weekly",
+          "cost": "Free admission",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "crooked-elm",
+      "name": "The Crooked Elm",
+      "slug": "crooked-elm",
+      "city": "Lower Hutt",
+      "region": "Wellington region",
+      "location": "Naenae",
+      "address": "25 Laings Road, Naenae, Lower Hutt 5011",
+      "categories": ["quiz"],
+      "source": {
+        "label": "Eventfinda — Quiz Night at The Crooked Elm",
+        "url": "https://www.eventfinda.co.nz/2026/quiz-night/lower-hutt"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Tuesday",
+          "startTime": "18:30",
+          "cadence": "weekly",
+          "cost": "Free admission",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "old-bailey",
+      "name": "The Old Bailey",
+      "slug": "old-bailey",
+      "city": "Wellington City",
+      "region": "Wellington region",
+      "location": "Wellington Central",
+      "address": "101 Lambton Quay, Wellington Central, Wellington 6011",
+      "categories": ["quiz", "book ahead"],
+      "description": "$25 food special on quiz night.",
+      "source": {
+        "label": "The Old Bailey — Tuesday Night Quiz",
+        "url": "https://theoldbailey.co.nz/events/quiz-night/"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Tuesday",
+          "startTime": "18:30",
+          "cadence": "weekly",
+          "cost": "Free to enter",
+          "prizes": "Packed with prizes",
+          "booking": "Bookings highly recommended",
+          "tags": ["book ahead"]
+        }
+      ]
+    },
+    {
+      "id": "lovys-eatery",
+      "name": "Lovy's Eatery",
+      "slug": "lovys-eatery",
+      "city": "Wellington City",
+      "region": "Wellington region",
+      "location": "Te Aro",
+      "address": "43 Vivian Street, Te Aro, Wellington 6011",
+      "categories": ["quiz"],
+      "source": {
+        "label": "Eventfinda — Quiz Night at Lovy's Eatery",
+        "url": "https://www.eventfinda.co.nz/2026/quiz-night3/wellington-region"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Tuesday",
+          "startTime": "18:30",
+          "cadence": "weekly",
+          "cost": "Free admission",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "kai-tahi",
+      "name": "Kai Tahi",
+      "slug": "kai-tahi",
+      "city": "Porirua",
+      "region": "Wellington region",
+      "location": "Porirua City Centre",
+      "address": "20 Parumoana Street, Porirua City Centre, Porirua 5022",
+      "categories": ["quiz"],
+      "source": {
+        "label": "Eventfinda — Quiz Night at Kai Tahi",
+        "url": "https://www.eventfinda.co.nz/2026/quiz-night/porirua-mana"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Tuesday",
+          "startTime": "18:30",
+          "cadence": "weekly",
+          "cost": "Free admission",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "the-office-cafe-bar",
+      "name": "The Office Cafe and Bar",
+      "slug": "the-office-cafe-bar",
+      "city": "Wellington City",
+      "region": "Wellington region",
+      "location": "Newtown",
+      "address": "124 Riddiford Street, Newtown, Wellington 6021",
+      "categories": ["quiz"],
+      "source": {
+        "label": "Eventfinda — Quiz Night at The Office",
+        "url": "https://www.eventfinda.co.nz/2026/quiz-night/wellington"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Wednesday",
+          "startTime": "19:00",
+          "cadence": "weekly",
+          "cost": "Free admission",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "waitoa",
+      "name": "Waitoa",
+      "slug": "waitoa",
+      "city": "Wellington City",
+      "region": "Wellington region",
+      "location": "Wellington Central",
+      "address": "175 Victoria Street, Wellington Central, Wellington 6011",
+      "categories": ["quiz"],
+      "description": "Weekly quiz night, Wednesdays 7pm, per the venue’s Eventfinda listing.",
+      "source": {
+        "label": "Eventfinda — Waitoa Victoria Street venue",
+        "url": "https://www.eventfinda.co.nz/venue/waitoa-victoria-street-wellington"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Wednesday",
+          "startTime": "19:00",
+          "cadence": "weekly",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "johnsonville-club",
+      "name": "The Johnsonville Club",
+      "slug": "johnsonville-club",
+      "city": "Wellington City",
+      "region": "Wellington region",
+      "location": "Johnsonville",
+      "address": "1 Norman Lane, Johnsonville, Wellington 6037",
+      "categories": ["quiz", "monthly"],
+      "description": "Coggies Quiz, per the club’s Eventfinda listing. Clubs often ask visitors to sign in.",
+      "source": {
+        "label": "Eventfinda — The Johnsonville Club venue",
+        "url": "https://www.eventfinda.co.nz/venue/the-johnsonville-club-wellington"
+      },
+      "lastVerified": "2026-08-26",
+      "verified": true,
+      "active": true,
+      "optOut": false,
+      "calendarDates": [],
+      "schedule": [
+        {
+          "day": "Wednesday",
+          "startTime": "19:00",
+          "cadence": "monthly",
+          "cadenceNote": "Every 4th Wednesday of the month",
+          "tags": ["monthly"]
+        }
+      ]
+    }
+  ]
+}

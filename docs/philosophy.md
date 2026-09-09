@@ -7,7 +7,7 @@ is good?"
 
 ## One command proves quality
 
-`npm run check` runs the entire gate — format, lint, typecheck, coverage,
+`pnpm run check` runs the entire gate — format, lint, typecheck, coverage,
 build, smoke, e2e, link integrity — and CI runs the exact same thing.
 No hidden steps, no local-only checks. The gate is a single decision: green
 or not.

@@ -9,7 +9,7 @@ secrets.
 
 ## Baseline (enforced by CI)
 
-- **Dependency audit** — `npm audit --audit-level=high` blocks CI
+- **Dependency audit** — `pnpm audit --audit-level=high` blocks CI
   (`.github/workflows/security.yml`). The advisory-only pass in `ci.yml`
   reports; the security workflow blocks.
 - **Secrets scan** — `scripts/security-checks.sh` fails CI when any `.env`
@@ -31,7 +31,7 @@ opt-in — borrowed from the pr-vetting action.
 ## Local checks
 
 ```bash
-npm run audit
+pnpm run audit
 bash scripts/security-checks.sh
 ```
 

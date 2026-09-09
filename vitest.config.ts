@@ -11,10 +11,13 @@ export default defineConfig({
   test: {
     environment: 'jsdom',
     globals: true,
-    testTimeout: 20_000,
-    hookTimeout: 20_000,
+    testTimeout: 15_000,
     setupFiles: ['./vitest.setup.ts'],
     include: ['src/**/*.test.{ts,tsx}'],
+    env: {
+      AUTH_DB_PATH: ':memory:',
+      AUTH_SECRET: 'test-secret',
+    },
     coverage: {
       provider: 'v8',
       include: ['src/lib/**', 'src/server/**'],

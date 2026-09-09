@@ -28,7 +28,7 @@ and every pointer resolves.
 - `AGENTS.md` and `CLAUDE.md`: how to work here, read first.
 - `docs/contributing/`: the shared workflow standard.
 - `docs/style-guide.md`: the writing rules.
-- `npm run check`: the single proof a change is good — the same command CI
+- `pnpm run check`: the single proof a change is good — the same command CI
   runs, so an agent never has to ask "what else do I verify?".
 
 ## Why it matters

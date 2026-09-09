@@ -1,15 +1,24 @@
-# Getting started
+# Getting started with a scaffolded project
+
+After `gh repo create my-project --template olitreadwell/template --private`,
+run the scaffolder:
 
 ```bash
-npm install
-npm run dev        # http://localhost:3000/wlg-nz-quizzes
+pnpm install
+pnpm run setup
 ```
+
+## What the scaffolder does
+
+- Renames `package.json` `name` (optionally `@scope/name`).
+- Rewrites the README heading to the app name.
+- Records your package-manager and deploy choices for the docs.
 
 ## What you do next
 
-1. `npm run check` — prove the baseline is green before touching anything.
-2. Edit the quiz dataset in `src/data/quizzes.ts`; tests enforce its shape.
-3. First commit: `git add -A && git commit -m "feat: init wlg-nz-quizzes"`.
-4. Push to `main`; `.github/workflows/pages.yml` deploys the site.
-5. Read `AGENTS.md` and `docs/contributing/00-index.md` before the first
+1. `pnpm run check` — prove the baseline is green before touching anything.
+2. First commit: `git add -A && git commit -m "feat: init <app>"`.
+3. Push and open the first PR into your `development` branch:
+   `gh repo create <owner>/<app> --private --source . --push`.
+4. Read `AGENTS.md` and `docs/contributing/00-index.md` before the first
    feature change.
